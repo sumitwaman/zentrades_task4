@@ -20,7 +20,7 @@ function login() {
     // Password validation   
     for(let i=0;i<password.length;i++){
         if(!((password[i]<='Z' && password[i]>='A') || (password[i]<='z' && password[i]>='a') || (password[i]=='@') || (password[i]<='9' && password[i]>='0') )){
-            alert('Password should not contain any special character other than @ and must contain an uppercase letter and a number!'+password[i]);
+            alert('Password should not contain any special character other than @ and must contain an uppercase letter and a number!');
             return;
         }
     }
